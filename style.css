@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-color: #FFFFFF;
+    --secondary-color: #C0C0C0;
+    --button-primary-color: #167BF7;
+    --background-color: #00030C; 
+    --primary-font: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.first-section{
+    background-image: url(./assests/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.img-combo{
+    margin: 1.3rem 12rem 3.3rem 11rem;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 28px;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    margin: 7.8rem 4.8rem 1.3rem 3.3rem;
+    padding: 0 4rem;
+}
+
+.first-button{
+    background-color: var(--button-primary-color);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0 7.2rem 1rem 5.7rem;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--primary-color);
+    display: block;
+}
+
+.second-button{
+    background-color: transparent;
+    border-radius: 8px;
+    border: solid var(--primary-color) 2px;
+    margin: 0 7.2rem 0.6rem 5.7rem;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+
+.aviso{
+    font-family: var(--primary-font);
+    font-size: 12px;
+    color: var(--secondary-color);
+}
+
+.second-section{
+    align-items: center;
+    text-align:left;
+}
+
+.img-plataforma{
+    width: 60%;
+    margin: 0 3.5rem 0 10rem;
+}
+
+h2{
+    font-family: var(--primary-font);
+    font-size: 48px;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.texto-plataforma{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin-right: 7.5rem;
+    padding-right: 7.5rem;
+}
+
+.third-section{
+    align-items: center;
+    text-align: left;
+}
+
+.texto-tela{
+    color: var(--secondary-color);
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    margin: 0rem 10rem 1rem 7.5rem;
+    padding:0 4.37rem 1rem 0;
+    
+}
+
+.third-button{
+    background-color: var(--button-primary-color);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem 30rem 0rem 7.5rem;
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 16;
+    text-decoration: none;
+}
+
+.img-tela{
+    margin: 0 5rem 0 4.37rem;
+}
+
+.fourth-section{
+    align-items: center;
+    text-align: left;
+}
+
+.img-notebook{
+    margin-left: 6rem;
+}
+
+h3{
+    font-family: var(--primary-font);
+    font-size: 48px;
+    color: var(--primary-color);
+}
+
+.fifth-section{
+    text-align: center;
+}
+
+h4{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 48px;
+}
+
+.devices-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 9rem;
+}
+
+.texto-notebook{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: var(--secondary-color);
+    margin: 0.5rem 7.5rem 0 0;
+    padding-right: 4rem;
+}
+
+.text-tv{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.text-pc{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.text-phone{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.rodape{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.rodape-links{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+.list-links a{
+    font-family: var(--primary-font);
+    font-size: 16px;
+    color: var(--primary-color);
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.rodape-text{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    color: var(--secondary-color);
+    margin: 1.5rem
+}
+
+.rodape-links a:hover {
+    color: var(--button-primary-color);
+}
+
+.first-button:hover {
+    background-color: var(--primary-color);
+    color: var(--button-primary-color);
+}
+
+.second-button:hover {
+    background-color: var(--primary-color);
+    color: var(--button-primary-color);
+}
+
+.third-button:hover {
+    background-color: var(--primary-color);
+    color: var(--button-primary-color);
+}
